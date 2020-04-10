@@ -31,6 +31,16 @@ const Header = ({ siteTitle }) => (
               Blog
             </Link>
           </li>
+          <li>
+            <Link to="/projects/" className={headerStyles.link}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/resume/" className={headerStyles.link}>
+              Resume
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
