@@ -4,12 +4,7 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer
-    // style={{
-    //   background: `rebeccapurple`,
-    //   marginBottom: `1.45rem`,
-    // }}
-    >
+    <footer>
       <div
         style={{
           margin: `0 auto`,
@@ -17,10 +12,7 @@ const Footer = () => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       ></div>
-      <br></br>
-      Created by Pierce Faraone <br></br>© {new Date().getFullYear()}, Built
-      with
-      {` `}
+      <br></br>© {new Date().getFullYear()} Pierce Faraone | Built with {` `}
       <a href="https://www.gatsbyjs.org" target="_blank">
         Gatsby
       </a>
