@@ -21,8 +21,23 @@
   margin: 0 auto;
 }
 
+.nav-item {
+  font-size: 0.9rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #39a0ca;
+}
+
 .link {
   font-size: 0.9rem;
   margin-right: 1.3rem;
   text-decoration: none;
+}
+
+.active-nav-item {
+  color: #101357;
+  text-decoration: underline;
 }
