@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const blogPage = () => {
+const projectsPage = () => {
   return (
     <Layout>
-      <SEO title="Blog" />
-      <h1>Blog</h1>
+      <SEO title="Projects" />
+      <h1>Projects</h1>
       <p>Post will show up here later on</p>
       <div>
         <Link to="/page-2/">Go to page 2</Link>
@@ -21,4 +21,4 @@ const blogPage = () => {
   )
 }
 
-export default blogPage
+export default projectsPage
