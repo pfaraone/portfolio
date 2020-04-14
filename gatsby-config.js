@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Pierce Faraone`,
     description: `Pierce Faraone - Portfolio`,
-    author: `@pierce.faraone`,
-    url: `https://raptori.dev`,
+    author: `Pierce Faraone`,
+    url: `https://pierce-faraone.netlify.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
