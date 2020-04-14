@@ -9,7 +9,7 @@ const contactPage = () => {
   return (
     <Layout>
       <SEO title="Contact" />
-      <h1>About</h1>
+      <h1>About Me</h1>
       <p>
         The best way to reach me is at @pierce.faraone on{" "}
         <a href="https://www.linkedin.com/in/pierce-faraone/" target="_blank">

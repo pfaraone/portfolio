@@ -10,13 +10,7 @@ const projectsPage = () => {
     <Layout>
       <SEO title="Projects" />
       <h1>Projects</h1>
-      <p>Post will show up here later on</p>
-      <div>
-        <Link to="/page-2/">Go to page 2</Link>
-      </div>
-      <div>
-        <Link to="/page-3/">Go to page 3</Link>
-      </div>
+      <p>Projects will show up here later on</p>
     </Layout>
   )
 }
