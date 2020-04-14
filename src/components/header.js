@@ -1,8 +1,10 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
+import Icon from "./Icon"
 
 import headerStyles from "./header.module.scss"
+import { NavLink } from "./Header/styles"
 
 const Header = ({ siteTitle }) => (
   <header className={headerStyles.header}>
@@ -23,7 +25,7 @@ const Header = ({ siteTitle }) => (
         <ul className={headerStyles.navList}>
           <li>
             <Link
-              to="/about/"
+              to="/contact/"
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
             >
@@ -51,11 +53,31 @@ const Header = ({ siteTitle }) => (
           <li>
             <Link
               to="/resume/"
-              className={headerStyles.link}
+              className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
             >
               Resume
             </Link>
+          </li>
+          <li>
+            <a
+              href="https://github.com/pfaraone/portfolio"
+              target="_blank"
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+            >
+              <Icon name="GitHub" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/pierce-faraone/"
+              target="_blank"
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+            >
+              <Icon name="LinkedIn" />
+            </a>
           </li>
         </ul>
       </nav>

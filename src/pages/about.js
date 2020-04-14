@@ -10,7 +10,7 @@ const aboutPage = () => {
     <Layout>
       <SEO title="About" />
       <h1>About</h1>
-      <p>Post will show up here later on</p>
+      <p>About me info will show up here later on</p>
     </Layout>
   )
 }

@@ -14,12 +14,6 @@ const resumePage = () => {
         Download Resume
       </a>
       &nbsp;
-      {/* <div>
-        <Link to="/page-2/">Go to page 2</Link>
-      </div>
-      <div>
-        <Link to="/page-3/">Go to page 3</Link>
-      </div> */}
     </Layout>
   )
 }

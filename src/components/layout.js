@@ -30,12 +30,14 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         className="container"
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-          fontFamily: `Arvo`,
-        }}
+        style={
+          {
+            // margin: `0 auto`,
+            // maxWidth: 960,
+            // padding: `0 1rem 1rem`,
+            // fontFamily: `Arvo`,
+          }
+        }
       >
         <main>{children}</main>
         <Footer />
