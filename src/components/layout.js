@@ -14,7 +14,7 @@ import Footer from "./footer"
 
 import "../layout.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, activePage }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,17 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        className="container"
-        style={
-          {
-            // margin: `0 auto`,
-            // maxWidth: 960,
-            // padding: `0 1rem 1rem`,
-            // fontFamily: `Arvo`,
-          }
-        }
-      >
+      <div className="container">
         <main>{children}</main>
         <Footer />
       </div>
