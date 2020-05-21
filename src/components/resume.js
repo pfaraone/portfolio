@@ -1,9 +1,30 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Icon, Link } from "src/components"
+import { Icon } from "src/components"
+import { Link } from "gatsby"
 
-const Section = styled.section`
+export const myDiv = styled.div`
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p:first-of-type {
+    margin: 0;
+  }
+
+  ul {
+    list-style: disc;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+`
+
+export const Section = styled.section`
   margin-bottom: 2rem;
   margin-top: calc(6rem + 1vw);
 
@@ -12,7 +33,7 @@ const Section = styled.section`
   }
 `
 
-const Header = styled.header`
+export const Header = styled.header`
   align-items: flex-end;
   display: flex;
   justify-content: space-between;
@@ -77,7 +98,7 @@ const createComponent = (title, root) => {
       children: (
         <>
           {name}&nbsp;
-          {link ? <Icon name="External" size={12} /> : null}
+          {/* {link ? <Icon name="External" size={12} /> : null} */}
         </>
       ),
     })
@@ -85,7 +106,6 @@ const createComponent = (title, root) => {
     return (
       <Section as={root}>
         <Header branding={branding}>
-          {link ? <Link to={link}>{titleContent}</Link> : titleContent}
           {start ? (
             <p>
               {start} - {end}
