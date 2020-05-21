@@ -19,18 +19,6 @@ const IndexPage = () => (
       {/* <div> */}
       <Image />
     </div>
-    <div>
-      <Link to="/page-2/">Go to page 2</Link>
-    </div>
-    <div>
-      <Link to="/page-3/">Go to page 3</Link>
-    </div>
-    <div>
-      <Link to="/blog/">Go to blog</Link>
-    </div>
-    <div>
-      <Link to="/about/">Go to about</Link>
-    </div>
   </Layout>
 )
 

@@ -32,15 +32,7 @@ const Header = ({ siteTitle }) => (
               About Me
             </Link>
           </li>
-          <li>
-            <Link
-              to="/blog/"
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-            >
-              Blog
-            </Link>
-          </li>
+          <li></li>
           <li>
             <Link
               to="/projects/"
