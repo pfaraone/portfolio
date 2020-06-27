@@ -26,24 +26,6 @@ const Header = ({ siteTitle }) => {
           <ul className={headerStyles.navList}>
             <li>
               <Link
-                to="/contact/"
-                className={headerStyles.navItem}
-                activeClassName={headerStyles.activeNavItem}
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/projects/"
-                className={headerStyles.navItem}
-                activeClassName={headerStyles.activeNavItem}
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/resume/"
                 className={headerStyles.navItem}
                 activeClassName={headerStyles.activeNavItem}

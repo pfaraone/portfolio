@@ -19,9 +19,9 @@ const IndexPage = () => (
       {/* <div> */}
       <Image />
     </div>
-    <div>
+    {/* <div>
       <Link to="/about/">Go to about</Link>
-    </div>
+    </div> */}
   </Layout>
 )
 
