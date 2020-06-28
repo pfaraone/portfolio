@@ -10,6 +10,11 @@
   </a>
 </h1>
 
+<h2>Changelog</h2>
+<p>This is a change
+
+</p>
+
 <p align="center">Powered by <a href="https://www.gatsbyjs.org/">Gatsby</a> & hosted on <a href="http://netlify.com">Netlify</a></p>
 
 <p align="center">

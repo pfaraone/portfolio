@@ -4,7 +4,6 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import Icon from "./Icon"
 
 import headerStyles from "./header.module.scss"
-import { NavLink } from "./Header/styles"
 
 const Header = ({ siteTitle }) => {
   return (

@@ -1,6 +1,21 @@
-import { Link, graphql, useStaticQuery } from "gatsby"
-import PropTypes from "prop-types"
+import { graphql, useStaticQuery } from "gatsby"
+import styled from "styled-components"
 import React from "react"
+
+const Wrapper = styled.footer`
+  color: var(--contrast-secondary-light);
+  background: var(--contrast-secondary-dark);
+  width: 100%;
+  bottom: 0;
+  margin-top: 2rem;
+  text-align: left;
+  a {
+    color: inherit !important;
+    text-decoration: none;
+  }
+`
+
+const year = new Date().getFullYear()
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -14,18 +29,12 @@ const Footer = () => {
   `)
   return (
     <footer>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      ></div>
-      <br></br>© {new Date().getFullYear()} {data.site.siteMetadata.author} |
-      Built with {` `}
-      <a href="https://www.gatsbyjs.org" target="_blank">
-        Gatsby
-      </a>
+      <Wrapper>
+        © {year} {data.site.siteMetadata.author} | Built with {` `}
+        <a href="https://www.gatsbyjs.org" target="_blank">
+          Gatsby
+        </a>
+      </Wrapper>
     </footer>
   )
 }

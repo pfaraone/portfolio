@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-// import NavLink from "../components/nav-link"
 
 const IndexPage = () => (
   <Layout>
@@ -14,14 +13,6 @@ const IndexPage = () => (
     <p>
       Need a developer? <Link to="/contact/">Contact me</Link>
     </p>
-    {/* <p>Now go build something great.</p> */}
-    <div>
-      {/* <div> */}
-      <Image />
-    </div>
-    {/* <div>
-      <Link to="/about/">Go to about</Link>
-    </div> */}
   </Layout>
 )
 
