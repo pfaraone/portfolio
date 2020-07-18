@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import myResume from "../assets/Pierce_Faraone_Resume.pdf"
+import myResume from "../static/Pierce_Faraone_Resume.pdf"
 
 const resumePage = () => {
   return (
